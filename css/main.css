@@ -6,6 +6,11 @@ li {
   margin: 0;
   padding-bottom: 25px;
 }
+h2,
+p {
+  margin: 0px;
+  padding: 0px;
+}
 .menu__bar {
   background-image: url('../img/header.png');
   background-size: cover;
@@ -24,9 +29,6 @@ a:hover {
   top: 65px;
   right: 65px;
 }
-.row {
-  text-align: center;
-}
 .row h1 {
   font-family: 'Caladea Bold';
   margin-bottom: 55px;
@@ -37,6 +39,7 @@ a:hover {
 }
 .row__text {
   padding-top: 470px;
+  text-align: center;
 }
 .row__text p {
   font-family: 'Aileron Regular';
@@ -46,5 +49,44 @@ a:hover {
   padding-bottom: 635px;
 }
 .about__img {
-  padding-top: 585px;
+  padding-top: 625px;
+}
+.about__text__h2-p h2 {
+  padding: 345px 0 55px 30px;
+  font-size: 36px;
+  font-family: 'Caladea Bold';
+}
+.about__text__h2-p span {
+  color: #d63c37;
+  text-decoration: underline;
+}
+.about__text__h2-p p {
+  padding-bottom: 55px;
+  padding-left: 105px;
+  font-size: 18px;
+  color: #666666;
+}
+.about__text-red {
+  padding-bottom: 30px;
+}
+.about__text-red p {
+  padding-bottom: 10px;
+}
+.about__text {
+  font-size: 18px;
+  font-family: 'Aileron Regular';
+}
+.icon {
+  display: inline-flex;
+}
+.icon i {
+  padding-top: 5px;
+  padding-left: 50px;
+  color: #d63c37;
+}
+.icon p {
+  padding-left: 30px;
+}
+.about__text-lorem {
+  padding-left: 100px;
 }
