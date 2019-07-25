@@ -1,10 +1,25 @@
 @import 'fonts.css';
 
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 25px;
+}
 .menu__bar {
-    height: 1280px;
+    background-image: url('../img/header.png');
+    background-size: cover;
+    background-position: 0 100%;
+}
+a {
+    text-decoration:none;
+    color: #7f7f7f;
+    &:hover {
+        color: #333333;
+    }
 }
 .nav {
-    position: absolute;
+    position: fixed;
     display: block;
     top: 65px;
     right: 65px;
@@ -14,12 +29,23 @@
     h1 {
         font-family: 'Caladea Bold';
         margin-bottom: 55px;
-    }
-    p {
-        font-family: 'Aileron Regular';
-        color: #7a7a7a;
+        font-size: 45px;
     }
     span {
         color: #d63c37;
     }
+}
+.row__text {
+    padding-top: 470px;
+    p {
+        font-family: 'Aileron Regular';
+        color: #7a7a7a;
+        font-size: 18px;
+        margin-bottom: 0px;
+        padding-bottom: 635px;
+    }
+}
+//About
+.about__img {
+    padding-top: 585px;
 }
