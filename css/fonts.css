@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Aileron Regular';
+    src: url(../fonts/Aileron-Regular.otf)
+}
+@font-face {
+    font-family: 'Caladea Bold';
+    src: url(../fonts/caladea-bold.ttf)
+}
+@font-face {
+    font-family: 'Caladea Bold Italic';
+    src: url(../fonts/caladea-bolditalic.ttf)
+}
+@font-face {
+    font-family: 'Caladea Italic';
+    src: url(../fonts/caladea-italic.ttf)
+}
+@font-face {
+    font-family: 'Caladea Regular';
+    src: url(../fonts/caladea-regular.ttf)
+}
