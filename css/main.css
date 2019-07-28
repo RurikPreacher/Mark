@@ -1,4 +1,7 @@
 @import 'fonts.css';
+button:focus {
+  outline: 0;
+}
 ul,
 li {
   display: block;
@@ -23,11 +26,18 @@ a {
 a:hover {
   color: #333333;
 }
-.nav {
-  position: fixed;
+.menu__icon {
+  font-size: 30px;
   display: block;
+  position: fixed;
   top: 65px;
-  right: 65px;
+  right: 58px;
+  border: none;
+  background: none;
+  outline: none;
+}
+.nav {
+  display: none;
 }
 .row h1 {
   font-family: 'Caladea Bold';
@@ -96,17 +106,36 @@ a:hover {
 .services__title {
   font-family: 'Caladea Bold';
   font-size: 36px;
+  padding-top: 310px;
 }
 .services__title span {
   color: #fff;
   text-decoration: underline;
 }
+.services__text {
+  text-align: end;
+  padding-bottom: 310px;
+}
 .services__text h3 {
   font-family: 'Aileron Bold';
   color: #fff;
   font-size: 24px;
+  padding-top: 65px;
 }
 .services__text p {
   font-family: 'Aileron Regular';
   font-size: 18px;
+  padding-top: 10px;
+}
+.services__icon {
+  margin-top: 80px;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
