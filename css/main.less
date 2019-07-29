@@ -1,5 +1,8 @@
 @import 'fonts.css';
 
+body {
+    user-select: none;
+}
 button:focus{outline:0}
 ul, li {
     display: block;
@@ -18,29 +21,31 @@ h2, p {
 }
 a {
     text-decoration:none;
-    color: #7f7f7f;
+    color: #333333;
     &:hover {
-        color: #333333;
+        color: #7f7f7f;
     }
 }
 .menu__icon {
     font-size: 30px;
     display: block;
     position: fixed;
-    top: 65px;
-    right: 58px;
+    top: 20px;
+    right: 20px;
     border: none;
     background: none;
     outline: none;
 }
-.nav {
+.menu {
     display: none;
     // position: fixed;
     // display: block;
     // top: 110px;
     // right: 65px;
 }
-.row {
+.content {
+    padding-top: 300px;
+    text-align: center;
     h1 {
         font-family: 'Caladea Bold';
         margin-bottom: 55px;
@@ -49,25 +54,21 @@ a {
     span {
         color: #d63c37;
     }
-}
-.row__text {
-    padding-top: 470px;
-    text-align: center;
     p {
         font-family: 'Aileron Regular';
         color: #7a7a7a;
         font-size: 18px;
         margin-bottom: 0px;
-        padding-bottom: 635px;
+        padding-bottom: 450px;
     }
 }
 //About
 .about__img {
-    padding-top: 625px;
+    padding-top: 450px;
 }
 .about__text__h2-p {
     h2 {
-        padding: 345px 0 55px 30px;
+        padding: 170px 0 55px 30px;
         font-size: 36px;
         font-family: 'Caladea Bold';
     }
@@ -113,7 +114,7 @@ a {
 .services__title {
     font-family: 'Caladea Bold';
     font-size: 36px;
-    padding-top: 310px;
+    padding-top: 170px;
     span {
         color: #fff;
         text-decoration: underline;
@@ -121,7 +122,7 @@ a {
 }
 .services__text {
     text-align: end;
-    padding-bottom: 310px;
+    padding-bottom: 100px;
     h3 {
         font-family: 'Aileron Bold';
         color: #fff;
