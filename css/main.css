@@ -11,6 +11,7 @@ li {
   padding: 0;
   margin: 0;
   padding-bottom: 25px;
+  text-align: center;
 }
 h2,
 p {
@@ -63,6 +64,7 @@ a:hover {
 }
 .about__img {
   padding-top: 450px;
+  padding-bottom: 35px;
 }
 .about__text__h2-p h2 {
   padding: 170px 0 55px 30px;
