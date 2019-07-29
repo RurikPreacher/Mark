@@ -1,0 +1,43 @@
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .content {
+        padding-top: 60px;
+    }
+    .content h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .content p {
+        padding-bottom: 325px;
+    }
+    .about__img {
+        padding-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    .about__text__h2-p h2 {
+        text-align: center;
+        padding: 18px;
+    }
+    .about__text__h2-p p {
+        padding-bottom: 25px;
+        text-align: center;
+        padding-left: 0;
+    }
+    .about__text-red {
+        padding-bottom: 10px;
+    }
+    .services__title {
+        padding-top: 80px;
+        text-align: center;
+    }
+    .services__text h3 {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .services__text p {
+        text-align: center;
+    }
+    .services__icon {
+        display: none;
+    }
+}
